@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lease Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lease Application Form</h1>
+    <form id="lease-application-form">
+        <div class="form-group">
+            <label for="student-name">Student Name</label>
+            <input type="text" id="student-name" name="student-name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="student-id">Student ID</label>
+            <input type="text" id="student-id" name="student-id" required>
+        </div>
+
+        <div class="form-group">
+            <label for="contact-email">Contact Email</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="contact-phone">Contact Phone</label>
+            <input type="tel" id="contact-phone" name="contact-phone" required>
+        </div>
+
+        <div class="form-group">
+            <label for="study-program">Program of Study</label>
+            <input type="text" id="study-program" name="study-program" required>
+        </div>
+
+        <div class="form-group">
+            <label for="study-year">Year of Study</label>
+            <input type="number" id="study-year" name="study-year" required>
+        </div>
+
+        <div class="form-group">
+            <label for="lease-year">Calendar Year of Lease Required</label>
+            <input type="number" id="lease-year" name="lease-year" required>
+        </div>
+
+        <div class="form-group">
+            <label for="bill-payer-name">Bill Payer's Name</label>
+            <input type="text" id="bill-payer-name" name="bill-payer-name" required>
+        </div>
+
+        <!-- Additional form fields can be added as needed -->
+
+        <button type="submit">Submit Application</button>
+    </form>
+</body>
+</html>
