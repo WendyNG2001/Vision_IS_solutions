@@ -1,4 +1,4 @@
-import { Admin, Resource, ListGuesser } from "react-admin";
+import { Admin, Resource, ListGuesser } from "react";
 import { PocketBaseProvider } from "./ra-pocketbase";
 
 
